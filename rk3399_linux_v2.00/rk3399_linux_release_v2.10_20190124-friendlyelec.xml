@@ -8,7 +8,7 @@
           fetch="https://github.com/rockchip-linux/" />
 
   <default remote="rockchip-linux" revision="master" sync-j="4" />
-
+  <project name="rk-rootfs-build" path="rootfs" remote="origin" />
   <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-linux-v4.4.y" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2014.10_dev" />
   <project path="device/rockchip" name="buildroot-device-custom_rk3399" remote="origin">
@@ -50,7 +50,6 @@
   <project name="music" path="app/music" revision="5899bbeb6f6d4b40ede66d943e06ac52a16a0326" upstream="master"/>
   <project name="powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
-  <project name="rk-rootfs-build" path="rootfs" revision="6b51506b39614c13eb8ca462ae6f1bfa69f80bcf" upstream="master"/>
   <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="rk_tee_user" path="external/security/rk_tee_user" revision="e1aa9109bdfa53ee0e331eea07ee8ad360d97706" upstream="master"/>
   <project name="rkbin" revision="9b4d6e6f4c25df59a0e1268ec6e72236cf78c788" upstream="stable-4.4-rk3399-linux"/>
