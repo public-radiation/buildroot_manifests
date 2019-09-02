@@ -10,7 +10,7 @@
   <default remote="rockchip-linux" revision="master" sync-j="4" />
   <project name="rk-rootfs-build" path="rootfs" remote="origin" />
   <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-linux-v4.4.y" />
-  <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2014.10_dev" />
+  <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2014.10_oreo" />
   <project path="device/rockchip" name="buildroot-device-custom_rk3399" remote="origin">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
