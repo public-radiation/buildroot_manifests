@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="." name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
+  <remote fetch="git@github.com:meta-qt5/" name="qt5"/>
+  <remote fetch="." name="rockchip-linux" review="git@github.com:rockchip-linux/" />
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <default remote="rockchip-linux" revision="master" sync-j="4"/>
 
